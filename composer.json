@@ -1,0 +1,19 @@
+{
+    "description": "Semantic content model generator for Neos CMS",
+    "type": "neos-package",
+    "name": "sitegeist/sandmoulds",
+    "require": {
+        "neos/neos": "~5.0 || dev-master"
+    },
+    "license": "GPL-3.0-or-later",
+    "autoload": {
+        "psr-4": {
+            "Sitegeist\\SandMoulds\\": "Classes/"
+        }
+    },
+    "extra": {
+        "neos": {
+            "package-key": "Sitegeist.SandMoulds"
+        }
+    }
+}
